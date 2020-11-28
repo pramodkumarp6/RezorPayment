@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements PaymentResultList
           //  options.put("order_id","");
             options.put("image", "https://rzp-mobile.s3.amazonaws.com/images/rzp.png");
             options.put("currency", "INR");
+            //
             String payment = orderamount.getText().toString();
             // amount is in paise so please multiple it by 100
             //Payment failed Invalid amount (should be passed in integer paise. Minimum value is 100 paise, i.e. ₹ 1)
