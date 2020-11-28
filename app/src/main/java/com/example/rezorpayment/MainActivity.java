@@ -11,10 +11,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.razorpay.Checkout;
+import com.razorpay.PaymentResultListener;
 
 import org.json.JSONObject;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements PaymentResultListener {
     private Button startpayment;
     private EditText orderamount;
     private String TAG =" main";
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             JSONObject options = new JSONObject();
             options.put("name", "Gravitation pvt ltd");
             options.put("description", "App Payment");
-            //You can omit the image option to fetch the image from dashboard
+          //  options.put("order_id","");
             options.put("image", "https://rzp-mobile.s3.amazonaws.com/images/rzp.png");
             options.put("currency", "INR");
             String payment = orderamount.getText().toString();

@@ -20,7 +20,7 @@
         </activity>
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_test_G6AajvEDidKmZZ"
+            android:value="rzp_live_FaB0YcZs9m0Gld"
 
             />
 
