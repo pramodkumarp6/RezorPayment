@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">RezorPayment</string>
+    <string name="title_activity_dash">Dash</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">UserProfile</string>
+    <string name="menu_slideshow">UserChange</string>
+    <string name="google_secretekey1">6Ld73vQZAAAAACwUexVezyQ24OB99lyFh6vcOUVa</string>
+    <string name="google_secretekey2">6Ld73vQZAAAAALeOgZXqfoQ3TsEdxDYBlFu9_5Oh</string>
+
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
 </resources>

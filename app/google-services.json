@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "599701145623",
+    "project_id": "rezorpayment",
+    "storage_bucket": "rezorpayment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599701145623:android:e5895616246bd6fcb8f452",
+        "android_client_info": {
+          "package_name": "com.example.rezorpayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599701145623-7d3mpd4g9u85igpks6s9c1s116m5o4v4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5LxW-9KYcDDt6UXvkpzJTWfoPzVhOIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599701145623-7d3mpd4g9u85igpks6s9c1s116m5o4v4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
